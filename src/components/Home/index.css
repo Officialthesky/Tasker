@@ -1,0 +1,122 @@
+.todoPage {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #171717;
+}
+header {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.addTaskHere {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 150px;
+  color: white;
+  /* background-color: red; */
+}
+.inputTask input {
+  width: 550px;
+  height: 25px;
+  outline: none;
+  padding-left: 20px;
+  background-color: #5c5c5c;
+  border: 0px;
+  border-radius: 2px;
+}
+input {
+  color: white;
+}
+.inputTask button {
+  width: 120px;
+  height: 26px;
+  border-radius: 5px;
+  border: 0px;
+  margin-left: 40px;
+  background-color: #c620a7;
+  color: white;
+}
+.tasklist {
+  padding-left: 150px;
+  padding-top: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+.tasks {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.taskCard {
+  width: 320px;
+  min-height: 150px;
+  background-color: #2f2f2f;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  position: relative;
+}
+
+.taskTitle {
+  width: 320px;
+  min-height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.taskTitle p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.taskCard hr {
+  width: 318px;
+  border: 1px solid #5c5c5c;
+}
+.updateTasks {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.isCompleted {
+  background-color: #c620a7;
+  border: 0px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.deleteBtn {
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+.completedStatus {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 40px;
+  right: -12px;
+}
+.completedStatus img {
+  width: 100%;
+  height: 100%;
+}
